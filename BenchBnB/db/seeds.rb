@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Bench.create(description:"Union Square", lat: 37.78, lng: -122.40);
+Bench.create(description:"Huntington Park", lat: 37.792024, lng: -122.412030);
