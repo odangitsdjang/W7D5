@@ -8,7 +8,7 @@ class BenchIndex extends React.Component {
   render() {
     let benches = "";
     if (this.props.benches) {
-      benches.map((bench,i)=> <li key={i}>{bench.description}, {bench.lat},{bench.lng}</li>);
+      benches = this.props.benches.map((bench,i)=> <li key={i}>{bench.description}, {bench.lat},{bench.lng}</li>);
     }
     return (
       <ul>
